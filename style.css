@@ -1,0 +1,50 @@
+.red {
+  color: red;
+}
+
+.hide {
+  display: none;
+}
+
+.rounded {
+  border-radius: 50%;
+}
+
+.button {
+  margin-top: 50px;
+  width: 150px;
+}
+
+#results li {
+  cursor: grab;
+}
+
+#results li:active {
+  cursor: grabbing;
+}
+
+#results li.ghost {
+  filter: grayscale(1);
+  opacity: 0.5;
+}
+
+.container {
+  width: 1300px
+}
+
+#preview, #editor {
+  margin: 20px auto;
+  max-width: 600px;
+}
+
+#preview {
+  min-height: 100px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 6px 12px;
+  text-align: left;
+}
+
+#preview img {
+  max-width: 100%;
+}
